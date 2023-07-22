@@ -7,6 +7,8 @@
     margin: 50px;
 }
 
+/* Formatação de indentifcador h1 */
+
 .nome-propriedade {
     font-size: 2em;
     color: black;
@@ -16,6 +18,8 @@
 
 }
 
+/* formatção do indentificador h2 */
+
 .valor-propriedade {
     font-size: 1.5em;
     font-weight: 400px;
@@ -23,7 +27,7 @@
     text-align: center;
 }
 
-
+/* formatação dos blocos */
 
 .bloco-1 {
     background-color: rgb(218, 194, 61);
@@ -63,6 +67,8 @@
     font-size: 40px;
 }
 
+/* formatação dos containers*/
+
 .container-row {
     display: flex;
     flex-direction: row;
@@ -72,6 +78,8 @@
 
 
 }
+
+
 
 .container-column {
     display: flex;
@@ -106,7 +114,6 @@
 .container-justify-center {
     display: flex;
     justify-content: center;
-    
     flex-direction: row;
     padding: 40px;
     height: 500px;
@@ -162,5 +169,38 @@
     height: 500px;
     background-color: #8a0983;
 
+
+}
+
+.container-align-items-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px;
+    height: 500px;
+    background-color: #8a0983;
+
+}
+
+.container-align-items-flexstart {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 40px;
+    height: 500px;
+    background-color: #8a0983;
+
+}
+
+.container-align-items-flexend {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    padding: 40px;
+    height: 500px;
+    background-color: #8a0983;
 
 }
