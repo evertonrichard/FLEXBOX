@@ -26,7 +26,7 @@
 
 
 .bloco-1 {
-    background-color: brown;
+    background-color: rgb(218, 194, 61);
     height: 150px;
     width: 150px;
     display: flex;
@@ -39,7 +39,7 @@
 }
 
 .bloco-2 {
-    background-color: rgb(95, 194, 14);
+    background-color: rgb(179, 61, 61);
     height: 150px;
     width: 150px;
     display: flex;
@@ -52,7 +52,7 @@
 }
 
 .bloco-3 {
-    background-color: rgb(112, 80, 143);
+    background-color: rgb(66, 152, 155);
     height: 150px;
     width: 150px;
     display: flex;
@@ -68,7 +68,7 @@
     flex-direction: row;
     padding: 40px;
     height: 500px;
-    background-color: #f9eac3;
+    background-color: #8a0983;
 
 
 }
@@ -78,7 +78,7 @@
     flex-direction: column;
     padding: 40px;
     height: 500px;
-    background-color: #f9eac3;
+    background-color: #8a0983;
 
 
 }
@@ -88,7 +88,7 @@
     flex-direction: row-reverse;
     padding: 40px;
     height: 500px;
-    background-color: #f9eac3;
+    background-color: #8a0983;
 
 
 }
@@ -98,7 +98,7 @@
     flex-direction: column-reverse;
     padding: 40px;
     height: 500px;
-    background-color: #f9eac3;
+    background-color: #8a0983;
 
 
 }
@@ -110,7 +110,7 @@
     flex-direction: row;
     padding: 40px;
     height: 500px;
-    background-color: #f9eac3;
+    background-color: #8a0983;
 
 
 }
@@ -120,7 +120,7 @@
     justify-content: flex-start;
     padding: 16px;
     height: 500px;
-    background-color: #f9eac3;
+    background-color: #8a0983;
 
 
 }
@@ -130,8 +130,37 @@
     justify-content: flex-end;
     padding: 16px;
     height: 500px;
-    background-color: #f9eac3;
+    background-color: #8a0983;
 
 
 }
 
+.container-justify-space-between {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    height: 500px;
+    background-color: #8a0983;
+
+
+}
+
+.container-justify-space-around {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    height: 500px;
+    background-color: #8a0983;
+
+
+}
+
+.container-justify-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+    height: 500px;
+    background-color: #8a0983;
+
+
+}
