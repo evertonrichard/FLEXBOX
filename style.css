@@ -1,0 +1,76 @@
+.titulo-pagina {
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 900;
+    margin: 50px;
+}
+
+
+
+
+.nome-propriedade {
+    font-size: 2em;
+    color: rgb(187, 145, 90);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.valor-propriedade {
+    font-size: 1.5em;
+    font-weight: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.bloco-1 {
+    background-color: brown;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 15px;
+    font-size: 40px;
+
+}
+
+.bloco-2 {
+    background-color: rgb(95, 194, 14);
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 15px;
+    font-size: 40px;
+
+}
+
+.bloco-3 {
+    background-color: rgb(112, 80, 143);
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 15px;
+    font-size: 40px;
+}
+
+.container-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    flex-direction: row-reverse;
+    background-color: black;
+    padding: 40px;
+    height: 500px;
+    
+    
+}
